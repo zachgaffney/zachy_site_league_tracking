@@ -26,7 +26,7 @@ import {
  * tracking, change only this date.
  */
 const INITIAL_TRACKING_DATE = new Date(
-  "2026-08-20T00:00:00-07:00"
+  "2026-08-28T00:00:00-07:00"
 )
 
 function riotMatchToStoredMatch(
