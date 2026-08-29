@@ -205,7 +205,7 @@ export async function syncMatches(): Promise<
        */
       if (
         riotMatch.info.queueId !== 420 ||
-        riotMatch.info.gameDuration < 300
+        riotMatch.info.gameDuration < 900
       ) {
         continue
       }
