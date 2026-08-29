@@ -204,7 +204,8 @@ export async function syncMatches(): Promise<
        * Ranked Solo/Duo is queue 420.
        */
       if (
-        riotMatch.info.queueId !== 420
+        riotMatch.info.queueId !== 420 ||
+        riotMatch.info.gameDuration < 300
       ) {
         continue
       }
